@@ -1,0 +1,43 @@
+enableSearch = true
+colorscheme = "blowfish"  
+
+[seo]
+  description = "Portfolio technique, robotique, électronique, Intelligence artificielle, impression 3D"
+  keywords = ["robotique", "électronique", "ROS 2", "Intelligence artificielle", "impression 3D"]
+  robots = "index, follow"
+
+[author]
+  name = "Portfolio de Louis St-Hilaire"
+  headline = "Maker - Robotique, électronique et intelligence artificielle"
+
+[homepage]
+  layout = "profile"
+  showRecent = false
+
+[list]
+  showCards = true
+  showSummary = true
+  groupByYear = false
+  showTaxonomies = true
+
+[seo.schema]
+  type = "Person"
+
+[header]
+  layout = "fixed"
+  showTitle = false
+  showLanguageSwitcher = false
+
+[footer]
+  showCopyright = false
+  showThemeAttribution = false
+
+[article]
+  showDate = false
+  showAuthor = false
+  showReadingTime = false
+  showTableOfContents = true
+  showLastUpdate = true
+  showCopyright = false
+  maxWidth = "full"
+

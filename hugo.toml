@@ -1,0 +1,16 @@
+baseURL = "https://taubore.github.io/portfolio/"
+languageCode = "fr-ca"
+defaultContentLanguage = "fr-ca"
+title = ""
+theme = "blowfish"
+
+pagination.pagerSize = 10
+enableRobotsTXT = true
+canonifyURLs = false
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[markup]
+  [markup.goldmark.renderer]
+      unsafe = true   # nécessaire pour shortcodes, HTML embarqué
