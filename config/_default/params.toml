@@ -7,8 +7,8 @@ colorscheme = "blowfish"
   robots = "index, follow"
 
 [author]
-  name = "Louis St-Hilaire"
-  headline = "Portfolio - Robotique, électronique et intelligence artificielle"
+  name = "Portfolio - Louis St-Hilaire"
+  headline = "Robotique, électronique et intelligence artificielle"
 
 [homepage]
   layout = "profile"
