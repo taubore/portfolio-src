@@ -1,5 +1,7 @@
 enableSearch = true
 colorscheme = "blowfish"  
+enableStructuredBreadcrumbs = true
+smartTOC = true
 
 [seo]
   description = "Portfolio technique, robotique, électronique, Intelligence artificielle, impression 3D"
@@ -7,18 +9,17 @@ colorscheme = "blowfish"
   robots = "index, follow"
 
 [author]
-  name = "Portfolio - Louis St-Hilaire"
+  name = "Louis St-Hilaire"
   headline = "Robotique, électronique et intelligence artificielle"
 
 [homepage]
-  layout = "profile"
+  layout = "page"
   showRecent = false
 
 [list]
   showCards = true
   showSummary = true
   groupByYear = false
-  showTaxonomies = true
 
 [seo.schema]
   type = "Person"
@@ -34,10 +35,10 @@ colorscheme = "blowfish"
 
 [article]
   showDate = false
+  showDateUpdated = true
   showAuthor = false
+  showBreadcrumbs = true
   showReadingTime = false
   showTableOfContents = true
-  showLastUpdate = true
+  showWordCount = false
   showCopyright = false
-  maxWidth = "full"
-

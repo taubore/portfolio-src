@@ -1,11 +1,12 @@
 baseURL = "https://taubore.github.io/portfolio/"
-languageCode = "fr-ca"
-defaultContentLanguage = "fr-ca"
+languageCode = "fr-CA"
+defaultContentLanguage = "fr"
 title = ""
 theme = "blowfish"
 
 pagination.pagerSize = 10
 enableRobotsTXT = true
+enableGitInfo = true
 canonifyURLs = false
 
 [outputs]

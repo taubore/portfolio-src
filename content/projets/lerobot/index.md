@@ -3,7 +3,6 @@ title = "LeRobot"
 weight = 20
 description = "Projet LeRobot (SO-101) de Hugging Face pour m'initier à la robotique de base et surtout au *Machine Learning*."
 summary = "Exploration du bras robotique LeRobot (SO-101) pour comprendre le contrôle des servo-moteurs, la cinématique et le *Machine Learning*."
-thumbnailImage = "lerobot_000.jpg"
 date = 2026-01-14
 tags = ["Robotique", "Intelligence artificielle", "Feetech STS3215", "Python"]
 categories = ["Projets"]
@@ -11,7 +10,7 @@ status = "En cours"
 +++
 
 {{< figure
-    src="lerobot_000.jpg"
+    src="lerobot_thumbnail.jpg"
     alt="Bras robotique LeRobot (SO-101)"
     width="50%"
 >}}

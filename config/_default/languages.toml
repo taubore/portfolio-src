@@ -1,3 +1,4 @@
-[fr-ca]
+[fr]
   languageName = "Français"
+  languageCode = "fr-CA"
   weight = 1

@@ -1,5 +1,5 @@
 +++
-title = "Portfolio"
+title = "Portfolio - Louis St-Hilaire"
 description = "Portfolio de mes projets robotique, électronique, intelligence artficielle et impression 3D"
 layout = "full"
 +++

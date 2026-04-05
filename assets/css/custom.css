@@ -1,19 +1,24 @@
-/* Réduire l’espace après les sous-titres dans les pages projets */
-body:not(.home) .prose h3 {
-  margin-bottom: 0 rem !important;
+/* Réduire légèrement l’espace après les sous-titres dans les pages de contenu */
+body:not(.home) .article-content h3 {
+  margin-bottom: 0 !important;
 }
 
-/* Supprimer l’espace au-dessus de l’image */
-body:not(.home) .prose figure,
-body:not(.home) .prose img.medium-zoom-image {
+/* Garder les figures plus compactes dans les pages projet */
+body:not(.home) .article-content figure,
+body:not(.home) .article-content img.medium-zoom-image {
   margin-top: 0 !important;
-}
-
-/* Supprimer l’espace inutile après les figures */
-body:not(.home) .prose figure,
-body:not(.home) .prose img.medium-zoom-image {
   margin-bottom: 0.25rem !important;
 }
 
+/* Éviter que les tableaux techniques débordent sur mobile */
+body:not(.home) .article-content table {
+  display: block;
+  width: 100%;
+  overflow-x: auto;
+  font-size: 0.95rem;
+}
 
-
+body:not(.home) .article-content th,
+body:not(.home) .article-content td {
+  vertical-align: top;
+}
