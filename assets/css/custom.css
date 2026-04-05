@@ -1,6 +1,47 @@
-/* Réduire légèrement l’espace après les sous-titres dans les pages de contenu */
+/* Hiérarchie légère des titres dans les pages de contenu */
+body:not(.home) #single_header h1 {
+  font-size: calc(1.9rem + 2pt);
+}
+
+/* Utiliser toute la largeur utile dans les pages simples, même sans table des matières */
+body:not(.home) #single_header,
+body:not(.home) article > section > div.max-w-fit,
+body:not(.home) article > footer.max-w-prose {
+  max-width: 100% !important;
+  width: 100%;
+}
+
+body:not(.home) .article-content {
+  max-width: none !important;
+}
+
+body:not(.home) .article-content h2 {
+  font-size: 1.9rem;
+  margin-top: 2.2rem;
+  margin-bottom: 0.8rem;
+}
+
 body:not(.home) .article-content h3 {
-  margin-bottom: 0 !important;
+  font-size: 1.4rem;
+  margin-top: 1.6rem;
+  margin-bottom: 0.15rem !important;
+}
+
+/* Respecter les proportions des médias sur l’ensemble du site */
+body:not(.home) .article-content img,
+body:not(.home) .article-content video {
+  max-width: 100%;
+  height: auto !important;
+}
+
+body:not(.home) .article-content iframe {
+  max-width: 100%;
+  aspect-ratio: 16 / 9;
+  height: auto;
+}
+
+body:not(.home) .article-content lite-youtube {
+  max-width: 100%;
 }
 
 /* Garder les figures plus compactes dans les pages projet */
@@ -8,6 +49,11 @@ body:not(.home) .article-content figure,
 body:not(.home) .article-content img.medium-zoom-image {
   margin-top: 0 !important;
   margin-bottom: 0.25rem !important;
+}
+
+body:not(.home) .article-content figure figcaption {
+  margin-top: 0.15rem;
+  line-height: 1.45;
 }
 
 /* Éviter que les tableaux techniques débordent sur mobile */
@@ -21,4 +67,36 @@ body:not(.home) .article-content table {
 body:not(.home) .article-content th,
 body:not(.home) .article-content td {
   vertical-align: top;
+}
+
+/* Rendre la BOM Devastator plus compacte et plus discrète */
+body:not(.home) .article-content table.devastator-bom {
+  font-size: 0.9rem;
+  line-height: 1.35;
+}
+
+body:not(.home) .article-content table.devastator-bom th,
+body:not(.home) .article-content table.devastator-bom td {
+  padding: 0.45rem 0.6rem;
+}
+
+body:not(.home) .article-content .devastator-bom-note {
+  font-size: 0.95rem;
+}
+
+/* Légère amélioration de l’espace entre image et commentaire */
+body:not(.home) .article-content p + figure,
+body:not(.home) .article-content figure + p {
+  margin-top: 0.2rem !important;
+}
+
+/* Miniature discrète pour la photo personnelle en bas de la page d'accueil */
+main#main-content > article.max-w-full.prose .home-portrait {
+  width: 100px;
+  max-width: 100%;
+}
+
+main#main-content > article.max-w-full.prose figure:has(.home-portrait) {
+  margin-top: 0.75rem;
+  margin-bottom: 0;
 }

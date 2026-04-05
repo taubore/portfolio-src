@@ -1,20 +1,27 @@
 +++
-title = "Portfolio - Louis St-Hilaire"
+title = "Carnet de projets"
 description = "Portfolio de mes projets robotique, électronique, intelligence artficielle et impression 3D"
 layout = "full"
 +++
 
 {{< figure
-  src="images/page_titre.png"
+  src="images/accueil.png"
   alt="Illustration technologique représentant des projets de robotique, d’électronique et d’intelligence artificielle"
 >}}
 
-Je suis ce qu'on peut appeler un *maker*, qui est intéressé par la robotique, l’électronique, l'impression 3D et l’intelligence artificielle appliquées à des projets concrets.
+Ce site présente mes projets personnels touchant la robotique, l'électronique, l'impression 3D avec pour objectif de migrer tranquillement vers de l'intelligence artificielle appliquée.
 
-Ce site présente mes projets personnels en cours, principalement des expérimentations servant à apprendre, tester et comprendre des concepts techniques comme les microcontrôleurs, les capteurs et le framework ROS 2 en Python. Mon principal coach pour l'apprentissage est ChatGPT (avec abonnement à ChatGPT Plus). L'assistance de l'agent **Codex**, intégré dans Visual Studio Code, m'est fort utile pour la programmation en Python (GitHub Copilot est aussi très bien). 
+J’y documente des réalisations concrètes, des essais, des choix techniques, des contraintes rencontrées ainsi que les apprentissages qui en découlent. La majorité des projets sont en cours d’évolution. L’objectif n’est donc pas de présenter des systèmes finalisés, mais de conserver une trace structurée du cheminement technique et de rendre cette expérience utile à d’autres.
 
-Les projets présentés sont souvent incomplets ou à un stade précoce. L’objectif n’est pas la démonstration de produits finis, mais la documentation du cheminement technique et des apprentissages réalisés.
-
-Ce contenu est publié en français (j'habite le Québec) afin de contribuer, à mon échelle, au partage technique francophone dans un domaine largement dominé par l’anglais.
+Le contenu est rédigé en français, depuis le Québec, avec la volonté de contribuer modestement au partage de connaissances techniques dans un environnement où la documentation accessible est souvent dispersée ou majoritairement en anglais.
 
 👉 Accéder à la liste des [projets](/portfolio/projets/)
+
+Louis St-Hilaire
+
+{{< figure
+  src="images/photo_perso.png"
+  alt="Photo de Louis St-Hilaire"
+  class="home-portrait"
+  nozoom="true"
+>}}

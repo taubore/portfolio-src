@@ -39,6 +39,6 @@ smartTOC = true
   showAuthor = false
   showBreadcrumbs = true
   showReadingTime = false
-  showTableOfContents = true
+  showTableOfContents = false
   showWordCount = false
   showCopyright = false
