@@ -1,0 +1,27 @@
+{{- $id := .Get "id" | default (.Get 0) -}}
+{{- if not $id -}}
+  {{- errorf "youtube shortcode: id is required: %s" .Position -}}
+{{- end -}}
+
+{{- $title := .Get "title" | default "Video YouTube" -}}
+{{- $caption := .Get "caption" -}}
+{{- $params := .Get "params" -}}
+{{- $src := printf "https://www.youtube-nocookie.com/embed/%s" $id -}}
+{{- if $params -}}
+  {{- $src = printf "%s?%s" $src $params -}}
+{{- end -}}
+
+<figure>
+  <div class="aspect-video overflow-hidden rounded-md">
+    <iframe
+      class="h-full w-full"
+      src="{{ $src }}"
+      title="{{ $title }}"
+      loading="lazy"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen>
+    </iframe>
+  </div>
+  {{- with $caption }}<figcaption>{{ . | markdownify }}</figcaption>{{ end }}
+</figure>
