@@ -61,3 +61,11 @@ showTableOfContents = false
     alt="Carte d'alimentation du Robot Devastator"
     caption="Il s'agit de la carte d'alimentation construite sur un perfboard et sur laquelle les deux modules de régulation de tension (5 V et 3,3 V) Pololu sont montés. Plusieurs condensateurs pour assurer une stabilité de l'alimentation ainsi qu'un fusible pour plus de sureté."
 >}}
+
+## 2026-06-06 - Autonomie simple avec un sonar à ultrason
+
+{{< youtube
+    id="rexOt6dcGlg"
+    title="Autonomie simple"
+    caption="Se déplace seul avec un sonar à ultrason. Lorsqu'un obstacle est rencontré, il s'arrête, regarde à gauche et à droite et choisit là où c'est le plus dégagé. Il fait alors une rotation dans ce sens jusqu'à ce que ce soit suffisament dégagé et se remet en mouvement par en avant. Le robot est capable de parler à l'aide du moteur de synthèse vocale local [Piper](https://github.com/OHF-Voice/piper1-gpl) . Modèle basé sur l'intelligence artificielle qui transforme du texte en parole naturelle."
+>}}
